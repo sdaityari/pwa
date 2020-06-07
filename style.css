@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+  margin: 50px 0px 20px 0px;
+  text-align: center;
+  padding: 2rem;
+  background: #4A44F2;
+  font-size: 40px;
+  color: #FFFF52;
+}
+
+.btn-wrapper: {
+  text-align: center;
+}
+
+.btn-wrapper button {
+  width: 150px;
+  height: 75px;
+  font-size: 20px;
+  color: black;
+}
+
+.todolist {
+  background: #101010;
+  width: 60%;
+  margin-bottom: 100px;
+}
+
+.list-items{
+  display: flex;
+}
+
+.list-items > div {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  flex: 1;
+  color: black;
+  width: 100px;
+}
+
+.odd {
+  background: #F2E635;
+}
+.even {
+  background: #F20505;
+}
+
+@media (max-width: 480px){
+  header h1{
+    font-size: 35px;
+  }
+  header p{
+    font-size: 16px;
+  }
+  .pads{
+    margin-bottom: 100px;
+  }
+}
