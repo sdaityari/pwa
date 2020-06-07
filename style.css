@@ -57,15 +57,3 @@ header h1 {
 .even {
   background: #F20505;
 }
-
-@media (max-width: 480px){
-  header h1{
-    font-size: 35px;
-  }
-  header p{
-    font-size: 16px;
-  }
-  .pads{
-    margin-bottom: 100px;
-  }
-}
